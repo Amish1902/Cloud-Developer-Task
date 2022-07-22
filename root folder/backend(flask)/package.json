@@ -1,0 +1,27 @@
+{
+  "name": "heroku-nextjs",
+  "version": "1.0.0",
+  "description": "Deploy Next.js server-side React apps to Heroku",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p $PORT"
+  },
+  "engines": {
+    "node": "10"
+  },
+  "repository": {
+    "type": "git",
+  },
+  "keywords": [
+    "react",
+    "ssr",
+    "server-side-rendering"
+  ],
+  
+  "dependencies": {
+    "next": "^9.0.6",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
